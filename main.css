@@ -1,0 +1,90 @@
+.attribution {
+     font-size: 11px; 
+     text-align: center; 
+}
+
+    .attribution a { 
+     color: hsl(228, 45%, 44%); 
+}
+
+body{
+     background-color: bisque;
+     font-size: 12px;
+
+}
+
+.container{
+     background-color: white;
+     width: 80vw;
+     max-width: 450px;
+     margin: 100px auto;
+     border-radius: 5px;
+     padding: 20px;
+}
+
+h3{
+     color: blueviolet;
+}
+img{
+     width: 100%;
+     max-width: 500px;
+     height: 20%;
+     border-radius: 5px;
+}
+
+h1{
+     font-family: sans-serif;
+}
+
+.prepare{
+     background-color: rgba(204, 175, 232, 0.352);
+     border-radius: 5px;
+     width: 95%;
+     padding: 10px;
+     
+}
+
+.ingredient{
+     border-bottom: 1px solid rgba(54, 54, 54, 0.11);
+}
+
+
+li{
+     padding-left: 10px;
+     margin-top: 10px;
+     margin-left: -22px;
+}
+
+.ingredient ul li::marker, h2, .line span, ol li::marker{
+     color: brown;
+}
+
+ol li::marker{
+     font-weight: 900;
+     font-size: 13px;
+}
+
+.instructions{
+line-height: 18px;
+border-bottom: 1px solid rgba(54, 54, 54, 0.11);
+}
+
+.line{
+     width: 60%;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     display: inline-flex;
+     justify-content: space-between;
+     padding-left: 30px;
+}
+
+span{
+    
+}
+.border{
+     border-bottom: 1px solid rgba(54, 54, 54, 0.11);
+}
+
+.border:last-of-type{
+     border: none;
+}
